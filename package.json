@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:wp": "vite build --mode wordpress",
+    "deploy:wp": "npm run build:wp && node scripts/deploy-wp.js"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
