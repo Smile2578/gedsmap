@@ -8,9 +8,9 @@ import UniversityInfoCard from './UniversityInfoCard';
 import { universities } from '../data/universities';
 
 // Point de départ des lignes au centre de la France
-const FRANCE_CENTER = [48.9, 2.38];
+const FRANCE_CENTER = [47, 2.38];
 // Centre de la carte sur Nuremberg
-const MAP_CENTER = [47.0, 11.0767];
+const MAP_CENTER = [46.0, 11.0767];
 
 const InteractiveMap = ({ customCenter, customZoom }) => {
   const [selectedUniversity, setSelectedUniversity] = useState(null);
